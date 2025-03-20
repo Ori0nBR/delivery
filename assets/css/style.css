@@ -1,0 +1,43 @@
+.w-32 {
+    width: 8rem; /* 128px */
+  }
+  
+  .h-32 {
+    height: 8rem; /* 128px */
+  }
+  
+  .rounded-full {
+    border-radius: 9999px; /* Cria bordas totalmente arredondadas */
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Sombra grande */
+  }
+  
+  .scale-110 {
+    transform: scale(1.1); /* Aumenta o tamanho para 110% */
+  }
+  
+  .duration-200 {
+    transition-duration: 200ms; /* Define a duração da transição */
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem; /* 30px */
+  }
+  
+  .mt-4 {
+    margin-top: 1rem; /* 16px */
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem; /* 8px */
+  }
+  
+  .font-bold {
+    font-weight: 700; /* Negrito */
+  }
+  
+  .text-white {
+    color: #ffffff; /* Cor do texto branca */
+  }  
