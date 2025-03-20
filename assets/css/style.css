@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  margin: 0; /* Remove margens padrões */
+  padding: 0; /* Remove os preenchimentos padrões */
+  box-sizing: border-box; /* Aplica box-sizing: border-box globalmente */
+}
+
 .w-full {
     width: 100%; /* Largura 100% do elemento pai */
   }
