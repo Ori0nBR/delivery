@@ -9,6 +9,9 @@ const cartCounter = document.getElementById("cart-count")
 const addressInput = document.getElementById("address")
 const addressWarn = document.getElementById("address-warn")
 
+
+let cart = [];
+
 //abrir o modal do carrinho
 cartBtn.addEventListener("click", function(){
     cartModal.style.display = "flex"
@@ -75,9 +78,12 @@ function updateCartModal() {
                 <p>Qtd: ${item.quantity}</p>
                 <p class="font-medium mt-2">R$ ${item.price.toFixed(2)}</p>
             </div>
-            <button>
-                Remover
-            </button>
+            
+            <div>
+                <button>
+                    Remover
+                </button>
+            </div>
         </div>
         `;
     
